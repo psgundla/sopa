@@ -57,7 +57,7 @@ Choose one of the following, depending on your needs:
 By default, `sopa` only install the minimal dependencies to avoid a heavy installation. Depending on your usage, you can install some extras. The available extras are listed below.
 
 === "Cellpose"
-    If you need to run Cellpose, you can use the corresponding extra:
+    If you want to use [Cellpose](https://github.com/mouseland/cellpose) for cell segmentation, you can install the corresponding extra:
 
     ```sh
     pip install 'sopa[cellpose]'
@@ -89,13 +89,19 @@ By default, `sopa` only install the minimal dependencies to avoid a heavy instal
 
 
 === "Stardist"
-    If you need to run [Stardist](https://github.com/stardist/stardist), you can install the corresponding extra:
+    If you want to use [Stardist](https://github.com/stardist/stardist) for cell segmentation, you can install the corresponding extra:
 
     ```sh
     pip install 'sopa[stardist]'
     ```
+=== "InstanSeg"
+    If you want to use [InstanSeg](https://github.com/instanseg/instanseg) for cell segmentation, you can install the corresponding extra:
+
+    ```sh
+    pip install 'sopa[instanseg]'
+    ```
 === "Comseg"
-    If you need to run Comseg, you can install it via pip:
+    If you want to use [Comseg](https://github.com/fish-quant/ComSeg) for cell segmentation, you can install it via pip:
 
     ```sh
     pip install comseg
